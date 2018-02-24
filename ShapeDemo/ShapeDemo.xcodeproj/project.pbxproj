@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D6F5826220413507000675E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5826120413507000675E0 /* AppDelegate.m */; };
-		D6F5826520413507000675E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5826420413507000675E0 /* ViewController.m */; };
+		D61C47282041553F004CF950 /* HZXCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = D61C47272041553F004CF950 /* HZXCircle.m */; };
+		D61C472B20417495004CF950 /* HZXShape.m in Sources */ = {isa = PBXBuildFile; fileRef = D61C472A20417495004CF950 /* HZXShape.m */; };
+		D6F5826220413507000675E0 /* HZXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5826120413507000675E0 /* HZXAppDelegate.m */; };
+		D6F5826520413507000675E0 /* HZXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5826420413507000675E0 /* HZXViewController.m */; };
 		D6F5826820413507000675E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F5826620413507000675E0 /* Main.storyboard */; };
 		D6F5826A20413507000675E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F5826920413507000675E0 /* Assets.xcassets */; };
 		D6F5826D20413507000675E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F5826B20413507000675E0 /* LaunchScreen.storyboard */; };
@@ -35,11 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D61C47262041553F004CF950 /* HZXCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXCircle.h; sourceTree = "<group>"; };
+		D61C47272041553F004CF950 /* HZXCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZXCircle.m; sourceTree = "<group>"; };
+		D61C472920417495004CF950 /* HZXShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXShape.h; sourceTree = "<group>"; };
+		D61C472A20417495004CF950 /* HZXShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZXShape.m; sourceTree = "<group>"; };
+		D61C472C20417620004CF950 /* HZXShapeConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXShapeConst.h; sourceTree = "<group>"; };
 		D6F5825D20413507000675E0 /* ShapeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6F5826020413507000675E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D6F5826120413507000675E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D6F5826320413507000675E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D6F5826420413507000675E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6F5826020413507000675E0 /* HZXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXAppDelegate.h; sourceTree = "<group>"; };
+		D6F5826120413507000675E0 /* HZXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZXAppDelegate.m; sourceTree = "<group>"; };
+		D6F5826320413507000675E0 /* HZXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXViewController.h; sourceTree = "<group>"; };
+		D6F5826420413507000675E0 /* HZXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZXViewController.m; sourceTree = "<group>"; };
 		D6F5826720413507000675E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6F5826920413507000675E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6F5826C20413507000675E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +85,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D61C4723204153D2004CF950 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5826F20413507000675E0 /* main.m */,
+				D6F5826620413507000675E0 /* Main.storyboard */,
+				D6F5826E20413507000675E0 /* Info.plist */,
+				D6F5826B20413507000675E0 /* LaunchScreen.storyboard */,
+				D6F5826920413507000675E0 /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D61C4724204153D7004CF950 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				D61C472C20417620004CF950 /* HZXShapeConst.h */,
+				D61C47262041553F004CF950 /* HZXCircle.h */,
+				D61C47272041553F004CF950 /* HZXCircle.m */,
+				D61C472920417495004CF950 /* HZXShape.h */,
+				D61C472A20417495004CF950 /* HZXShape.m */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		D61C472520415415004CF950 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5826020413507000675E0 /* HZXAppDelegate.h */,
+				D6F5826120413507000675E0 /* HZXAppDelegate.m */,
+				D6F5826320413507000675E0 /* HZXViewController.h */,
+				D6F5826420413507000675E0 /* HZXViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		D6F5825420413507000675E0 = {
 			isa = PBXGroup;
 			children = (
@@ -101,15 +143,9 @@
 		D6F5825F20413507000675E0 /* ShapeDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D6F5826020413507000675E0 /* AppDelegate.h */,
-				D6F5826120413507000675E0 /* AppDelegate.m */,
-				D6F5826320413507000675E0 /* ViewController.h */,
-				D6F5826420413507000675E0 /* ViewController.m */,
-				D6F5826620413507000675E0 /* Main.storyboard */,
-				D6F5826920413507000675E0 /* Assets.xcassets */,
-				D6F5826B20413507000675E0 /* LaunchScreen.storyboard */,
-				D6F5826E20413507000675E0 /* Info.plist */,
-				D6F5826F20413507000675E0 /* main.m */,
+				D61C472520415415004CF950 /* Main */,
+				D61C4724204153D7004CF950 /* Shape */,
+				D61C4723204153D2004CF950 /* Other */,
 			);
 			path = ShapeDemo;
 			sourceTree = "<group>";
@@ -265,9 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6F5826520413507000675E0 /* ViewController.m in Sources */,
+				D6F5826520413507000675E0 /* HZXViewController.m in Sources */,
 				D6F5827020413507000675E0 /* main.m in Sources */,
-				D6F5826220413507000675E0 /* AppDelegate.m in Sources */,
+				D61C472B20417495004CF950 /* HZXShape.m in Sources */,
+				D61C47282041553F004CF950 /* HZXCircle.m in Sources */,
+				D6F5826220413507000675E0 /* HZXAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VYHF3XFZT5;
-				INFOPLIST_FILE = ShapeDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ShapeDemo/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yushi.ShapeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,7 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VYHF3XFZT5;
-				INFOPLIST_FILE = ShapeDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ShapeDemo/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yushi.ShapeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

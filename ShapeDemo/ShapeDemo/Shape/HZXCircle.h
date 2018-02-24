@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HZXCircle.h
 //  ShapeDemo
 //
 //  Created by hezixuan on 2018/2/24.
@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HZXShape.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface HZXCircle : HZXShape
 
-@property (strong, nonatomic) UIWindow *window;
-
+/*
+ * 方法
+ */
+- (void) draw;
 
 @end
-

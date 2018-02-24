@@ -6,16 +6,22 @@
 //  Copyright © 2018年 hezixuan. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HZXViewController.h"
+#import "HZXShapeConst.h"
+#import "HZXCircle.h"
 
-@interface ViewController ()
+@interface HZXViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HZXViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    HZXCircle *circle = [[HZXCircle alloc] init];
+    
+    [circle draw];
 }
 
 
