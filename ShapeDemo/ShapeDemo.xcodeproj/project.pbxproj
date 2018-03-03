@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D60ECEEF204AB0DE00BF83AD /* HZXCar.m in Sources */ = {isa = PBXBuildFile; fileRef = D60ECEEE204AB0DE00BF83AD /* HZXCar.m */; };
+		D60ECEF2204AB0FD00BF83AD /* HZXEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D60ECEF1204AB0FD00BF83AD /* HZXEngine.m */; };
+		D60ECEF5204AB13300BF83AD /* HZXTire.m in Sources */ = {isa = PBXBuildFile; fileRef = D60ECEF4204AB13300BF83AD /* HZXTire.m */; };
 		D61C47282041553F004CF950 /* HZXCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = D61C47272041553F004CF950 /* HZXCircle.m */; };
 		D61C472B20417495004CF950 /* HZXShape.m in Sources */ = {isa = PBXBuildFile; fileRef = D61C472A20417495004CF950 /* HZXShape.m */; };
 		D6F5826220413507000675E0 /* HZXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5826120413507000675E0 /* HZXAppDelegate.m */; };
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D60ECEED204AB0DE00BF83AD /* HZXCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXCar.h; sourceTree = "<group>"; };
+		D60ECEEE204AB0DE00BF83AD /* HZXCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZXCar.m; sourceTree = "<group>"; };
+		D60ECEF0204AB0FD00BF83AD /* HZXEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXEngine.h; sourceTree = "<group>"; };
+		D60ECEF1204AB0FD00BF83AD /* HZXEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZXEngine.m; sourceTree = "<group>"; };
+		D60ECEF3204AB13300BF83AD /* HZXTire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXTire.h; sourceTree = "<group>"; };
+		D60ECEF4204AB13300BF83AD /* HZXTire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZXTire.m; sourceTree = "<group>"; };
 		D61C47262041553F004CF950 /* HZXCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXCircle.h; sourceTree = "<group>"; };
 		D61C47272041553F004CF950 /* HZXCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZXCircle.m; sourceTree = "<group>"; };
 		D61C472920417495004CF950 /* HZXShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXShape.h; sourceTree = "<group>"; };
@@ -85,6 +94,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D60ECEEC204AB0BE00BF83AD /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				D60ECEED204AB0DE00BF83AD /* HZXCar.h */,
+				D60ECEEE204AB0DE00BF83AD /* HZXCar.m */,
+				D60ECEF0204AB0FD00BF83AD /* HZXEngine.h */,
+				D60ECEF1204AB0FD00BF83AD /* HZXEngine.m */,
+				D60ECEF3204AB13300BF83AD /* HZXTire.h */,
+				D60ECEF4204AB13300BF83AD /* HZXTire.m */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
 		D61C4723204153D2004CF950 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +165,7 @@
 		D6F5825F20413507000675E0 /* ShapeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D60ECEEC204AB0BE00BF83AD /* Car */,
 				D61C472520415415004CF950 /* Main */,
 				D61C4724204153D7004CF950 /* Shape */,
 				D61C4723204153D2004CF950 /* Other */,
@@ -303,9 +326,12 @@
 			files = (
 				D6F5826520413507000675E0 /* HZXViewController.m in Sources */,
 				D6F5827020413507000675E0 /* main.m in Sources */,
+				D60ECEF5204AB13300BF83AD /* HZXTire.m in Sources */,
 				D61C472B20417495004CF950 /* HZXShape.m in Sources */,
+				D60ECEEF204AB0DE00BF83AD /* HZXCar.m in Sources */,
 				D61C47282041553F004CF950 /* HZXCircle.m in Sources */,
 				D6F5826220413507000675E0 /* HZXAppDelegate.m in Sources */,
+				D60ECEF2204AB0FD00BF83AD /* HZXEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
