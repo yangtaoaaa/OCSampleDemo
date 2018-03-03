@@ -16,4 +16,10 @@
 
 @implementation HZXTire
 
+- (NSString *) description
+{
+    return (@"I am a tire. I last a while");
+} // description
+
+
 @end

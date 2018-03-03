@@ -9,6 +9,7 @@
 #import "HZXViewController.h"
 #import "HZXShapeConst.h"
 #import "HZXCircle.h"
+#import "HZXCar.h"
 
 @interface HZXViewController ()
 
@@ -19,9 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    HZXCircle *circle = [[HZXCircle alloc] init];
+//    HZXCircle *circle = [[HZXCircle alloc] init];
+//
+//    [circle draw];
     
-    [circle draw];
+    // 让小汽车跑一会
+    HZXCar *car = [[HZXCar alloc] init];
+    [car print];
 }
 
 

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HZXTire : BaseObject
+@interface HZXTire : NSObject
 
 @end

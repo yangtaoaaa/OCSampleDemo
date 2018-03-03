@@ -16,4 +16,9 @@
 
 @implementation HZXEngine
 
+- (NSString *) description
+{
+    return (@"I am an engine.  Vrooom!");
+} // description
+
 @end

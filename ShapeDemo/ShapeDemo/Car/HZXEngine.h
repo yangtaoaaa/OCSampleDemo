@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HZXEngine : BaseObject
+@interface HZXEngine : NSObject
 
 @end

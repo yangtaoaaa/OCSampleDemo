@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HZXCar : BaseObject
+@interface HZXCar : NSObject
+
+- (void) print;
 
 @end
