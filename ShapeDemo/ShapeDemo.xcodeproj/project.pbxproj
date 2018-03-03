@@ -10,6 +10,8 @@
 		D60ECEEF204AB0DE00BF83AD /* HZXCar.m in Sources */ = {isa = PBXBuildFile; fileRef = D60ECEEE204AB0DE00BF83AD /* HZXCar.m */; };
 		D60ECEF2204AB0FD00BF83AD /* HZXEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D60ECEF1204AB0FD00BF83AD /* HZXEngine.m */; };
 		D60ECEF5204AB13300BF83AD /* HZXTire.m in Sources */ = {isa = PBXBuildFile; fileRef = D60ECEF4204AB13300BF83AD /* HZXTire.m */; };
+		D60ECEF8204ABEFA00BF83AD /* HZXAllWeatherRadial.m in Sources */ = {isa = PBXBuildFile; fileRef = D60ECEF7204ABEFA00BF83AD /* HZXAllWeatherRadial.m */; };
+		D60ECEFB204ABFEA00BF83AD /* HZXSlant6.m in Sources */ = {isa = PBXBuildFile; fileRef = D60ECEFA204ABFEA00BF83AD /* HZXSlant6.m */; };
 		D61C47282041553F004CF950 /* HZXCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = D61C47272041553F004CF950 /* HZXCircle.m */; };
 		D61C472B20417495004CF950 /* HZXShape.m in Sources */ = {isa = PBXBuildFile; fileRef = D61C472A20417495004CF950 /* HZXShape.m */; };
 		D6F5826220413507000675E0 /* HZXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5826120413507000675E0 /* HZXAppDelegate.m */; };
@@ -46,6 +48,10 @@
 		D60ECEF1204AB0FD00BF83AD /* HZXEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZXEngine.m; sourceTree = "<group>"; };
 		D60ECEF3204AB13300BF83AD /* HZXTire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXTire.h; sourceTree = "<group>"; };
 		D60ECEF4204AB13300BF83AD /* HZXTire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZXTire.m; sourceTree = "<group>"; };
+		D60ECEF6204ABEFA00BF83AD /* HZXAllWeatherRadial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXAllWeatherRadial.h; sourceTree = "<group>"; };
+		D60ECEF7204ABEFA00BF83AD /* HZXAllWeatherRadial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZXAllWeatherRadial.m; sourceTree = "<group>"; };
+		D60ECEF9204ABFEA00BF83AD /* HZXSlant6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXSlant6.h; sourceTree = "<group>"; };
+		D60ECEFA204ABFEA00BF83AD /* HZXSlant6.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZXSlant6.m; sourceTree = "<group>"; };
 		D61C47262041553F004CF950 /* HZXCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXCircle.h; sourceTree = "<group>"; };
 		D61C47272041553F004CF950 /* HZXCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZXCircle.m; sourceTree = "<group>"; };
 		D61C472920417495004CF950 /* HZXShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZXShape.h; sourceTree = "<group>"; };
@@ -101,8 +107,12 @@
 				D60ECEEE204AB0DE00BF83AD /* HZXCar.m */,
 				D60ECEF0204AB0FD00BF83AD /* HZXEngine.h */,
 				D60ECEF1204AB0FD00BF83AD /* HZXEngine.m */,
+				D60ECEF9204ABFEA00BF83AD /* HZXSlant6.h */,
+				D60ECEFA204ABFEA00BF83AD /* HZXSlant6.m */,
 				D60ECEF3204AB13300BF83AD /* HZXTire.h */,
 				D60ECEF4204AB13300BF83AD /* HZXTire.m */,
+				D60ECEF6204ABEFA00BF83AD /* HZXAllWeatherRadial.h */,
+				D60ECEF7204ABEFA00BF83AD /* HZXAllWeatherRadial.m */,
 			);
 			path = Car;
 			sourceTree = "<group>";
@@ -325,12 +335,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6F5826520413507000675E0 /* HZXViewController.m in Sources */,
+				D60ECEF8204ABEFA00BF83AD /* HZXAllWeatherRadial.m in Sources */,
 				D6F5827020413507000675E0 /* main.m in Sources */,
 				D60ECEF5204AB13300BF83AD /* HZXTire.m in Sources */,
 				D61C472B20417495004CF950 /* HZXShape.m in Sources */,
 				D60ECEEF204AB0DE00BF83AD /* HZXCar.m in Sources */,
 				D61C47282041553F004CF950 /* HZXCircle.m in Sources */,
 				D6F5826220413507000675E0 /* HZXAppDelegate.m in Sources */,
+				D60ECEFB204ABFEA00BF83AD /* HZXSlant6.m in Sources */,
 				D60ECEF2204AB0FD00BF83AD /* HZXEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
