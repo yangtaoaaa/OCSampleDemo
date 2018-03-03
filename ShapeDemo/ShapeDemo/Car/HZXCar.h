@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HZXEngine.h"
-#import "HZXSlant6.h"
+@class HZXEngine;
+@class HZXSlant6;
 #import "HZXTire.h"
 #import "HZXAllWeatherRadial.h"
 

@@ -7,6 +7,8 @@
 //
 
 #import "HZXCar.h"
+#import "HZXSlant6.h"
+#import "HZXAllWeatherRadial.h"
 
 @interface HZXCar()
 
